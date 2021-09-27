@@ -1,0 +1,23 @@
+#!/bin/sh
+# 20172256 Youhoseong Linux Assignment 3
+row=$1
+col=$2
+
+if [ $row -lt 1 ] || [ $col -lt 1 ]; then
+	echo "Argument must be greater than 0."
+	exit 1
+fi
+
+
+for i in `seq $row`
+do
+	for j in `seq $col`
+	do
+		echo -n "$i*$j=`expr $i \* $j`\t"
+
+	done
+
+	echo 
+done
+
+exit 0
