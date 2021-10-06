@@ -8,4 +8,4 @@ Linux Assignment Repository.
 
 
 ## 1. List 
-- Multiplication Table with Shell Programming
+- Assign 3: Multiplication Table with Shell Programming
