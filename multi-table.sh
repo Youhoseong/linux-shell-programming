@@ -10,18 +10,6 @@ fi
 
 row=$1
 col=$2
-re="^[0-9]+$"
-
-
-if [ $row =~ $re ]; then
-  echo "number"
-else
-  echo "not number"
-fi
-
-
-
-
 
 if [ $row -lt 1 ] || [ $col -lt 1 ]; then
 	echo "Argument must be greater than 0."
